@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" href="./img/logotitle.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function Lightmode(){
+            var element = document.body;
+            element.classList.toggle("dark-mode")
+        }
+    </script>
+    <header>
+            <button onclick="Lightmode()" >
+                <img src="./img/lampada.png" alt="darkmode">
+            </button>
+    </header>
+    <div class="fundo">
+        <div class="block1">
+            <img src="./img/celular.png" alt="Celular">
+        </div>
+        <div class="block2">
+            <div class="group">
+                <img src="./img/instagram_name.png" alt="img"><br>
+                <img src="./img/douglas.png" alt="perfil" id="perfil"><br>
+                <a href="#" id="login">Continuar como Douglas</a><br>
+                <a class="textlink" href="#">Remover conta</a>
+            </div>
+            <div class="group">
+                <p>Não é Douglas?</p>
+                <div class="notacount">
+                    <a class="textlink" href="#">Alterar conta</a> ou <a class="textlink" href="#">Cadastre-se</a>
+                </div>
+            </div>
+            <div>
+                <p>Obtenha o aplicativo.</p>
+                <img src="./img/apps.png" alt="App Store">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

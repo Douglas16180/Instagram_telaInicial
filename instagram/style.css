@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+}
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+
+}
+#perfil{
+    height: auto;
+    width: 33%;
+    background-color: rgb(5, 112, 161);
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+#login{
+    background-color: rgb(5, 112, 161);
+    color: #ffffff;
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+header {
+    padding: 5px 5px;
+    display: inline;
+    justify-content: flex-start;
+}
+header img{
+    height: 40px;
+    width: 40px;
+}
+header button {
+    border-style: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+.dark-mode{
+    background-color: black;
+    color: black;
+}
+.notacount{
+    display: block;
+}
+.textlink{
+    color: rgb(5, 112, 161);
+}
+.textlink:hover{
+    color: red;
+    transition: 1s;
+    
+
+}
